@@ -1,0 +1,56 @@
+li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  width: 90%;
+  column-gap: 0.8rem;
+  font-size: 1.3rem;
+}
+
+li span {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: darkblue;
+}
+
+li div {
+  color: #ffdd00;
+}
+
+.input-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 0.8rem;
+  width: auto;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  column-gap: 0.8rem;
+  font-weight: 700;
+}
+
+label input {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+label textarea {
+  font-family: inherit;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  height: min-content;
+  aspect-ratio: 8 / 1;
+}
+
+select {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
