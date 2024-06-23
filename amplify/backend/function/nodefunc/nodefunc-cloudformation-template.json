@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "test",
+            "nodefunc",
             {
               "Fn::Join": [
                 "",
                 [
-                  "test",
+                  "nodefunc",
                   "-",
                   {
                     "Ref": "env"
@@ -78,7 +78,7 @@
             "Arn"
           ]
         },
-        "Runtime": "python3.9",
+        "Runtime": "nodejs18.x",
         "Layers": [],
         "Timeout": 25
       }
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "ratingappLambdaRole0fbef991",
+            "ratingappLambdaRolec647e9fa",
             {
               "Fn::Join": [
                 "",
                 [
-                  "ratingappLambdaRole0fbef991",
+                  "ratingappLambdaRolec647e9fa",
                   "-",
                   {
                     "Ref": "env"

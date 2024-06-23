@@ -8,7 +8,7 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "test"
+          "resourceName": "nodefunc"
         }
       ],
       "providerPlugin": "awscloudformation",
@@ -16,26 +16,26 @@
     }
   },
   "function": {
-    "test": {
+    "nodefunc": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
   },
   "parameters": {
-    "AMPLIFY_function_test_deploymentBucketName": {
+    "AMPLIFY_function_nodefunc_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "test"
+          "resourceName": "nodefunc"
         }
       ]
     },
-    "AMPLIFY_function_test_s3Key": {
+    "AMPLIFY_function_nodefunc_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "test"
+          "resourceName": "nodefunc"
         }
       ]
     }

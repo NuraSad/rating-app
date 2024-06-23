@@ -13,9 +13,9 @@
     },
     "categories": {
       "function": {
-        "test": {
+        "nodefunc": {
           "deploymentBucketName": "amplify-ratingapp-dev-dbf87-deployment",
-          "s3Key": "amplify-builds/test-352f70377a35692b736c-build.zip"
+          "s3Key": "amplify-builds/nodefunc-48426d6c76535376454a-build.zip"
         }
       },
       "api": {

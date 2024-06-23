@@ -3,7 +3,7 @@
   "paths": {
     "/things": {
       "name": "/things",
-      "lambdaFunction": "test",
+      "lambdaFunction": "nodefunc",
       "permissions": {
         "setting": "open"
       }
