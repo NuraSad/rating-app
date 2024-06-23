@@ -15,7 +15,7 @@
       "function": {
         "test": {
           "deploymentBucketName": "amplify-ratingapp-dev-dbf87-deployment",
-          "s3Key": "amplify-builds/test-436e533563477830334b-build.zip"
+          "s3Key": "amplify-builds/test-352f70377a35692b736c-build.zip"
         }
       },
       "api": {
